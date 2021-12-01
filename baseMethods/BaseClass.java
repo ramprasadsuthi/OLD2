@@ -20,6 +20,7 @@ public class BaseClass {
 	
 	public void closeChrome() {
 		driver.close();
+		System.out.println("Closing Chrome..:);
 	}
 	
 	public void launchERP() {
